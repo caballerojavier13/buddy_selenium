@@ -6,9 +6,11 @@ var options = {
     }
 };
 
+
+
 webdriverio
   .remote(options)
   .init()
   .url('http://buddy.works')
-  .saveScreenshot('report/buddyworks-' + process.env.EID + '.png') 
+  .saveScreenshot('./report/buddyworks-' + process.env.EID + '.png') 
   .end();
