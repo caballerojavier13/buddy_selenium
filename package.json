@@ -1,0 +1,14 @@
+{
+  "name": "buddy_selenium",
+  "version": "1.0.0",
+  "description": "",
+  "main": "selenium.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Javier Hernán Caballero García <caballerojavier13@gmail.com> (http://www.javiercaballero.info)",
+  "license": "ISC",
+  "dependencies": {
+    "webdriverio": "^4.6.2"
+  }
+}
