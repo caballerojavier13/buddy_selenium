@@ -10,5 +10,5 @@ webdriverio
   .remote(options)
   .init()
   .url('http://buddy.works')
-  .saveScreenshot('buddyworks.png') 
+  .saveScreenshot('./report/buddyworks-' + process.env.EID + '.png') 
   .end();
